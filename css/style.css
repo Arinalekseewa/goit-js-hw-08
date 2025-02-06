@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.gallery {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 48px 24px;
+    margin: 100px 156px;
+    padding: 0;
+}
+
+.gallery-image {
+    display: block;
+    width: 360px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+    scroll-behavior: smooth
+}
+
+button {
+    cursor: pointer
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto
+}
